@@ -10,8 +10,8 @@
 ----------
 * [Введение](#in)
 * [Ссылки](#links)
-* [Кнокки](#buttons)
-* [Designer](#designer)
+* [Кнопки](#buttons)
+* [Дизайнеру](#designer)
 * [Спасибо](#thx)
 
 <a name="in"></a>
