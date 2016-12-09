@@ -240,6 +240,7 @@ button:disabled {
 ![текст с различными состояниями ссылки](https://slasher.ru/articles/link-or-button/link_sates_example.png)
 ![Состояния кнопки в порядке: обычное, наведение, клик, отключена](https://slasher.ru/articles/link-or-button/button_bicycle_states.png)
 
+>Ребята из Google [сделали такой](https://material.google.com/components/buttons.html) макет☺.
 
 
 Спасибо
