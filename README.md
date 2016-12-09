@@ -197,7 +197,7 @@ HTML5 `<button>Кнопка</button>`
 
 
 
-<a name='buttons_accessibility'></a>
+<a name='buttons_state'></a>
 
 Состояния
 =========
