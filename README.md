@@ -16,6 +16,10 @@
 * [Введение](#in)
 * [Ссылки](#links)
 * [Кнопки](#buttons)
+    * [Доступность](#buttons_accessibility)
+    * [Состояние](#buttons_state)
+    * [Отображение](#buttons_view)
+    * [CSS](#buttons_css)
 * [Дизайнеру](#designer)
 * [Спасибо](#thx)
 
@@ -173,10 +177,14 @@ a:visited {
 
 HTML5 `<button>Кнопка</button>`
 ===============================
+
 Если клик не меняет адрес страницы, адрес нельзя скопировать и нельзя этим адресом поделиться — это кнопка.
 
 >В кнопке позволителен капс при условии, что вы не используете аббревеатуры. Особенно в неочевидных местах.
 Если у вас встречаются аббревеатуры, то верхний регистр в кнопке не желателен, выделяйте их другим сопособом. Не искушайте пользователей тапать по тому, что не тапается. У пользователей тачскрина нет возможности подсмотреть `:hover` или `:focus` состояние. Ну или есть, но происходит это всё не очень удобно, обычно уже после свершившегося тапа. 
+
+
+<a name='buttons_accessibility'></a>
 
 Доступность
 -----------
@@ -189,6 +197,8 @@ HTML5 `<button>Кнопка</button>`
 
 
 
+<a name='buttons_accessibility'></a>
+
 Состояния
 =========
 Похожи на состояния у [ссылок](https://ru.wikipedia.org/wiki/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B0_(%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C) "Ссылка (запись) — Википедия") за исключением того, что у кнопок нет состояния `:visited`, зато есть состояние `:disabled`.
@@ -197,6 +207,11 @@ _Да. Этот гайд для тебя, любитель превратить 
 
 Стилей для этих штучек понадобится немного больше, но всё не так страшно. Кроме того ребята из Twitter и отчасти Google уже позаботились о реализации велосипеда. 
 Тёплый ламповый [Bootstrap](http://getbootstrap.com/css/#buttons) и новомодный [MaterializeCSS](http://materializecss.com/buttons.html) например.
+
+
+
+
+<a name='buttons_view'></a>
 
 Отображение
 ===========
@@ -209,6 +224,10 @@ _Да. Этот гайд для тебя, любитель превратить 
 ![Material Design кнопки серые стандартные](https://material-design.storage.googleapis.com/publish/material_v_9/0Bx4BSt6jniD7WlduMk1kbTRzQWc/components_buttons_main15.png)
 ![Material Design кнопки синие](https://material-design.storage.googleapis.com/publish/material_v_9/0Bx4BSt6jniD7UTh2dExpSlRVWVU/components_buttons_main16.png)
 
+
+
+
+<a name='buttons_css'></a>
 
 CSS
 ===
