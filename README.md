@@ -21,12 +21,12 @@
 <a href="javascript:;">Ссылка которая кнопка</a>
 ```
 Когда наводят указатель на ссылку которая кнопка то в левом нижнем углу появляется надпись javascript:;:
-![javascript:;](http://slasher.ru/articles/link-or-button/javascript.png)
+![javascript:;](https://slasher.ru/articles/link-or-button/javascript.png)
 Или адрес с решёткой: 
-![https//site.name/page.html#](http://slasher.ru/articles/link-or-button/octothorpe.png)
+![https//site.name/page.html#](https://slasher.ru/articles/link-or-button/octothorpe.png)
 
 `ПКМ` на такой кнопке, контекстное меню любезно предложит
-![Контекстное меню предлагает открыть ссылку в новой вкладке, сохранить, копировать…  ](http://slasher.ru/articles/link-or-button/mrb.png)
+![Контекстное меню предлагает открыть ссылку в новой вкладке, сохранить, копировать…  ](https://slasher.ru/articles/link-or-button/mrb.png)
 
 `ctrl` + `ЛКМ` на такой кнопке откроют новую вкладку на которой будет ровно таже страница с которой она была открыта
 
@@ -56,7 +56,7 @@ a {
 Ликбез:
 =======
 Пример различных состояний:
-![текст с различными состояниями ссылки](http://slasher.ru/articles/link-or-button/link_sates_example.png)
+![текст с различными состояниями ссылки](https://slasher.ru/articles/link-or-button/link_sates_example.png)
 -----------------------
 `a` — обычное состояние
 -----------------------
@@ -160,7 +160,7 @@ _Да. Этот гайд для тебя, любитель превратить 
 Отображение
 ===========
 Так выглядит `<button>Кнопка</button>` моём Chrome 54:
-![отображение состояний кнопки](http://slasher.ru/articles/link-or-button/button_states.png)
+![отображение состояний кнопки](https://slasher.ru/articles/link-or-button/button_states.png)
 На картинке `button`, `button:hover`, `button:focus`, `button:active` соответственно.
 
 Без излишеств. Но учитывая движение Google в направлении *Material Design*, вполне может статься так, что в скором времени их заменят на [подобные аналоги](https://material.google.com/components/buttons.html "сайт презентация концепта Material Design от Google").
@@ -172,7 +172,7 @@ _Да. Этот гайд для тебя, любитель превратить 
 CSS
 ===
 _Для наглядности — мой вариант велосипеда который выглядит странновато, но для примера сойдёт._
-![Состояния кнопки в порядке: обычное, наведение, клик, отключена](http://slasher.ru/articles/link-or-button/button_bicycle_states.png)
+![Состояния кнопки в порядке: обычное, наведение, клик, отключена](https://slasher.ru/articles/link-or-button/button_bicycle_states.png)
 Обычная, наведение, клик, отключена соответственно.
 ----------------------------
 `button` — обычное состояние
@@ -237,8 +237,8 @@ button:disabled {
 
 От дизайнера помимо макета с обычным состоянием ссылки или кнопки, требуется прилагать различные состояния, дабы не устраивать верстальщику батхерт.
 Например так:
-![текст с различными состояниями ссылки](http://slasher.ru/articles/link-or-button/link_sates_example.png)
-![Состояния кнопки в порядке: обычное, наведение, клик, отключена](http://slasher.ru/articles/link-or-button/button_bicycle_states.png)
+![текст с различными состояниями ссылки](https://slasher.ru/articles/link-or-button/link_sates_example.png)
+![Состояния кнопки в порядке: обычное, наведение, клик, отключена](https://slasher.ru/articles/link-or-button/button_bicycle_states.png)
 
 
 Спасибо, что дочитали. Всё здесь написаннное не является 100% истиной в последней инстанции. А лишь набор рекомендаций. Поэтому этот гайд можно найти на [Github.com](https://github.com/KasperGreen/button-or-link-guide-ru)
