@@ -241,6 +241,9 @@ button:disabled {
 ![Состояния кнопки в порядке: обычное, наведение, клик, отключена](https://slasher.ru/articles/link-or-button/button_bicycle_states.png)
 
 
+
+Спасибо
+=======
 Спасибо, что дочитали. Всё здесь написаннное не является 100% истиной в последней инстанции.
 
 [Репозиторий ](https://github.com/KasperGreen/button-or-link-guide-ru)
