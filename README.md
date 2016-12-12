@@ -324,5 +324,7 @@ button:disabled {
 [Репозиторий ](https://github.com/KasperGreen/button-or-link-guide-ru)
 
 
+-----------------
 
+![Процесс рисования](https://slasher.ru/articles/link-or-button/paint_process.jpg)
 
