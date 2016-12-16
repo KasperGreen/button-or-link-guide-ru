@@ -11,7 +11,7 @@
 >— [ссылки](https://ru.wikipedia.org/wiki/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B0_(%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C) "Ссылка (запись) — Википедия") вместо кнопок `<UserName />`‽
 
 
-![Девушка на картинке как бы спрашивает — Куда жать?](https://slasher.ru/articles/link-or-button/+poster.png)
+![Девушка на картинке как бы спрашивает — Куда жать?](https://slasher.ru/articles/link-or-button/+poster.png "Девушка на картинке как бы спрашивает — Куда жать?")
 _ Автор иллюстрации `<Marat Hilmanov>` gray-monkey@yandex.ru_
 
 Если коротко:
