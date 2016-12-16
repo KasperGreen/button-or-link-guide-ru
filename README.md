@@ -344,7 +344,7 @@ button:disabled {
 
 
 
-Пример сложнее
+Пример посложнее
 --------------
 
 ![Кнопки которые похожи на настоящие](https://slasher.ru/articles/link-or-button/buttons_example_complicated.png)
@@ -380,6 +380,7 @@ button:active {
 }
 button:disabled {
     background: hsla(420, 0%, 64%, 1);
+    transform: translate(-4px, 4px);
     border: 1px hsla(420, 0%, 22%, 1) solid;
     border-top-color: hsla(420, 0%, 56%, 1);
     box-shadow: 0 0 0 0 hsla(420, 0%, 22%, .87), 0 0 0 hsla(420, 0%, 11%, 1), 0 0 0 0 hsla(420, 0%, 32%, 1), inset 1px 1px 4px 0 hsla(420, 0%, 22%, 1);
