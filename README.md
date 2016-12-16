@@ -42,27 +42,27 @@ _ Автор иллюстрации `<Marat Hilmanov>` gray-monkey@yandex.ru_
 
 Содержание
 ----------
-* [Ссылки](#links)
-    * [Введение](#in)
-    * [Антипатерн](#antipatern)
-    * [Состояния](#links_states)
-* [Кнопки](#buttons)
-    * [Доступность](#buttons_accessibility)
-    * [Поведение внутри тега `<form>`](#in_form)
-    * [Состояния](#buttons_state)
-    * [Отображение](#buttons_view)
-    * [CSS](#buttons_css)
-* [Дизайнеру](#designer)
-* [Спасибо](#thx)
+* [Ссылки](#ssylki)
+    * [Введение](#vvedenie)
+    * [Антипаттерн](#antipattern)
+    * [Состояния](#sostoyaniya)
+* [Кнопки](#html5-buttonknopkabutton)
+    * [Доступность](#dostupnost)
+    * [Поведение внутри тега `<form>`](#povedenie-vnutri-formy)
+    * [Состояния](#sostoyaniya-1)
+    * [Отображение](#otobrazhenie)
+    * [CSS](#css)
+* [Дизайнеру](#dizayneru)
+* [Спасибо](#spasibo)
 * [Репозиторий на GitHub](#github)
 
 ---------------------------
 
-<a name="links_states"></a>
+<a name="ssylki"></a>
 
 ## Ссылки
 
-<a name="in"></a>
+<a name="vvedenie"></a>
 
 ### Введение
 
@@ -94,9 +94,9 @@ _ Автор иллюстрации `<Marat Hilmanov>` gray-monkey@yandex.ru_
 
 #### У [ссылки](https://ru.wikipedia.org/wiki/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B0_(%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C) "Ссылка (запись) — Википедия") должны быть стили для обычного, `:active`, `:visited`, `:focus` и `:hover` состояний.
 
-<a name="antipatern"></a>
+<a name="antipattern"></a>
 
-### Антипатерн
+### Антипаттерн
 ```css
 a {
     color: black !important;
@@ -112,7 +112,7 @@ a {
 
 
 
-<a name="links_states"></a>
+<a name="sostoyaniya"></a>
 
 ### Состояния
 
@@ -205,7 +205,7 @@ a:visited {
 
 
 
-<a name="buttons"></a>
+<a name="html5-buttonknopkabutton"></a>
 
 ## HTML5 `<button>Кнопка</button>`
 
@@ -217,7 +217,7 @@ a:visited {
 Если у вас встречаются аббревиатуры, то верхний регистр в кнопке не желателен, выделяйте их другим способом. Не искушайте пользователей тапать по тому, что не тапается. У пользователей тачскрина нет возможности подсмотреть `:hover` или `:focus` состояние. Ну или есть, но происходит это всё не очень удобно, обычно уже после свершившегося тапа.
 
 
-<a name='buttons_accessibility'></a>
+<a name='dostupnost'></a>
 
 ## Доступность
 
@@ -228,7 +228,7 @@ a:visited {
 >Что *JSΩ*, то *JSॐ*   ! Как говорится.
 
 
-<a name='in_form'></a>
+<a name='povedenie-vnutri-formy'></a>
 
 
 ### Поведение внутри формы
@@ -252,10 +252,10 @@ a:visited {
 >   <span style="color: red;">Красный</span> <span style="color: blue;">Синий</span>
 ></button>
 >```
->Это даёт даже больше свободы в оформлении чем `<input type="image" />`
+>Это даёт даже больше свободы в стилевом оформлении чем `<input type="image" />`
 
 
-<a name='buttons_state'></a>
+<a name='sostoyaniya-1'></a>
 
 ### Состояния
 
@@ -269,7 +269,7 @@ _Да. Этот гайд для тебя, любитель превратить 
 
 
 
-<a name='buttons_view'></a>
+<a name='otobrazhenie'></a>
 
 ### Отображение
 
@@ -285,7 +285,7 @@ _Да. Этот гайд для тебя, любитель превратить 
 
 
 
-<a name='buttons_css'></a>
+<a name='css'></a>
 
 ### CSS
 _Для наглядности — мой вариант велосипеда который выглядит странновато, но для примера сойдёт._
@@ -347,7 +347,7 @@ button:disabled {
 
 
 
-<a name="designer"></a>
+<a name="dizayneru"></a>
 
 ## Дизайнеру
 
@@ -361,7 +361,7 @@ button:disabled {
 >Ребята из Google [сделали такой](https://material.google.com/components/buttons.html) макет.
 
 
-<a name="thx"></a>
+<a name="spasibo"></a>
 
 ## Спасибо
 
@@ -372,7 +372,7 @@ button:disabled {
 
 ## GitHub
 
-[Ссылка на репозиторий этой статьи](https://github.com/KasperGreen/button-or-link-guide-ru)
+[Ссылка на репозиторий этой статьи](https://github.com/KasperGreen/button-or-link-guide-ru). Если хотите дополнить или исправить, присылайте пожалуйста `Pull Request`
 
 
 
