@@ -258,7 +258,7 @@ HTML5 `<button>Кнопка</button>`
 >   <span style="color: red;">Красный</span> <span style="color: red;">Красный</span>
 ></button>
 >```
->Это даёт даже больше свободы стилизации чем `<input type="image" />`
+>Это даёт даже больше свободы в оформлении чем `<input type="image" />`
 
 
 <a name='buttons_state'></a>
