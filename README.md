@@ -349,6 +349,8 @@ button:disabled {
 
 ![Кнопки которые похожи на настоящие](https://slasher.ru/articles/link-or-button/buttons_example_complicated.png)
 
+[Пример на JSFiddle](https://jsfiddle.net/j0vpbzsp/)
+
 <spoiler title="Показать CSS">
 
 ```css
