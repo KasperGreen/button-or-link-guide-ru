@@ -12,7 +12,8 @@
 
 
 ![Девушка на картинке как бы спрашивает — Куда жать?](https://slasher.ru/articles/link-or-button/+poster.png?1 "Девушка на картинке как бы спрашивает — Куда жать?")
-_ Автор иллюстрации `<Marat Hilmanov>` gray-monkey@yandex.ru_
+
+_Автор иллюстрации `<Marat Hilmanov>` gray-monkey@yandex.ru_
 
 Если коротко:
 =============
