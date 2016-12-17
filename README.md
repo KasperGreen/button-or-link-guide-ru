@@ -347,9 +347,9 @@ button:disabled {
 Пример посложнее
 --------------
 
-![Кнопки которые похожи на настоящие](https://slasher.ru/articles/link-or-button/buttons_example_complicated.png)
+![Кнопки которые похожи на настоящие](https://slasher.ru/articles/link-or-button/buttons_example_complicated.png?1)
 
-[Живой пример на JSFiddle](https://jsfiddle.net/j0vpbzsp/)
+[Живой пример на JSFiddle](https://jsfiddle.net/j0vpbzsp/1)
 
 <spoiler title="Показать CSS">
 
@@ -369,7 +369,7 @@ button {
     position: relative;
     transition: all .22s ease-in;
 }
-button:hover, button:focus {
+button:hover {
     background: hsla(420, 90%, 42%, 1);
     color: hsla(420, 90%, 12%, 1);
     text-shadow: 1px 1px 1px hsla(420, 90%, 32%, 1);
@@ -377,6 +377,14 @@ button:hover, button:focus {
     border-top-color: hsla(420, 90%, 64%, 1);
     box-shadow: -4px 4px 0 0 hsla(420, 90%, 22%, .87), -3px 4px 3px hsla(420, 42%, 11%, 1), 1px 5px 4px hsla(420, 42%, 11%, 1), -4px 1px 0 0 hsla(420, 90%, 32%, 1), inset 0 0 1px 0 hsla(420, 90%, 90%, 1);
 }
+button:focus {
+      background: hsla(108, 90%, 42%, 1);
+      color: hsla(108, 90%, 12%, 1);
+      text-shadow: 1px 1px 1px hsla(108, 90%, 32%, 1);
+      border: 1px hsla(108, 92%, 56%, 1) solid;
+      border-top-color: hsla(108, 90%, 64%, 1);
+      box-shadow: -4px 4px 0 0 hsla(108, 90%, 22%, .87), -3px 4px 3px hsla(108, 42%, 11%, 1), 1px 5px 4px hsla(108, 42%, 11%, 1), -4px 1px 0 0 hsla(108, 90%, 32%, 1), inset 0 0 1px 0 hsla(108, 90%, 90%, 1);
+  }
 button:active {
     background: hsla(420, 90%, 42%, 1);
     color: hsla(420, 90%, 12%, 1);
