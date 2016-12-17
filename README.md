@@ -395,9 +395,9 @@ button:disabled {
 
 ### Пример посложнее
 
-[Посмотреть в живую на JSFiddle](https://jsfiddle.net/j0vpbzsp/1)
+[Посмотреть в живую на JSFiddle](https://jsfiddle.net/j0vpbzsp/2)
 
-![Кнопки которые похожи на настоящие](https://slasher.ru/articles/link-or-button/buttons_example_complicated.png?1)
+![Кнопки которые похожи на настоящие](https://slasher.ru/articles/link-or-button/buttons_example_complicated.png?2)
 
 
 <spoiler title="Показать CSS">
@@ -445,12 +445,23 @@ button:active {
 }
 button:disabled {
     background: hsla(420, 0%, 64%, 1);
-    color: hsla(180, 0%, 12%, 1);
-    text-shadow: 1px 1px 1px hsla(180, 0%, 32%, 1);
+    color: hsla(420, 0%, 12%, 1);
+    text-shadow: 1px 1px 1px hsla(420, 0%, 32%, 1);
     transform: translate(-4px, 4px);
     border: 1px hsla(420, 0%, 22%, 1) solid;
     border-top-color: hsla(420, 0%, 56%, 1);
     box-shadow: 0 0 0 0 hsla(420, 0%, 22%, .87), 0 0 0 hsla(420, 42%, 11%, 1), 0 0 0 hsla(420, 42%, 11%, 1), 0 0 0 0 hsla(420, 0%, 32%, 1), inset 1px 1px 4px 0 hsla(420, 0%, 22%, 1);
+
+}
+button:disabled.in_ajax
+{
+    background: hsla(108, 22%, 64%, 1);
+    color: hsla(108, 22%, 12%, 1);
+    text-shadow: 1px 1px 1px hsla(108, 22%, 32%, 1);
+    transform: translate(-4px, 4px);
+    border: 1px hsla(108, 22%, 22%, 1) solid;
+    border-top-color: hsla(108, 22%, 56%, 1);
+    box-shadow: 0 0 0 0 hsla(108, 22%, 22%, .87), 0 0 0 hsla(420, 42%, 11%, 1), 0 0 0 hsla(420, 42%, 11%, 1), 0 0 0 0 hsla(420, 0%, 32%, 1), inset 1px 1px 4px 0 hsla(420, 0%, 22%, 1);
 
 }
 ```
