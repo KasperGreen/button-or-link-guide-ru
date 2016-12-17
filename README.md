@@ -497,4 +497,4 @@ button:disabled {
 
 -----------------
 
-![Процесс рисования](https://slasher.ru/articles/link-or-button/paint_process.jpg)
+![Процесс рисования](https://slasher.ru/articles/link-or-button/paint_process.jpg?1)
