@@ -359,9 +359,9 @@ button {
     background: hsla(180, 90%, 64%, 1);
     color: hsla(180, 90%, 12%, 1);
     text-shadow: 1px 1px 1px hsla(180, 90%, 32%, 1);
-    box-shadow: -4px 4px 0 0 hsla(180, 90%, 22%, .87), -3px 4px 3px hsla(180, 42%, 11%, 1), 2px 4px 4px hsla(180, 42%, 11%, 1), -4px 1px 0 0 hsla(180, 90%, 32%, 1), inset 0 0 1px 0 hsla(180, 90%, 90%, 1);
-    border: 1px hsla(180, 90%, 42%, 1) solid;
-    border-top-color: hsla(180, 90%, 56%, 1);
+    box-shadow: -4px 4px 0 0 hsla(180, 90%, 22%, .87), -3px 4px 3px hsla(180, 42%, 11%, 1), 1px 5px 4px hsla(180, 42%, 11%, 1), -4px 1px 0 0 hsla(180, 90%, 32%, 1), inset 0 0 1px 0 hsla(180, 90%, 90%, 1);
+    border: 1px hsla(180, 92%, 56%, 1) solid;
+    border-top-color: hsla(180, 92%, 64%, 1);
     border-radius: 5px;
     outline: none;
     position: relative;
@@ -371,17 +371,17 @@ button:hover, button:focus {
     background: hsla(420, 90%, 42%, 1);
     color: hsla(420, 90%, 12%, 1);
     text-shadow: 1px 1px 1px hsla(420, 90%, 32%, 1);
-    border: 1px hsla(420, 90%, 22%, 1) solid;
-    border-top-color: hsla(420, 90%, 56%, 1);
-    box-shadow: -4px 4px 0 0 hsla(420, 90%, 22%, .87), -3px 4px 3px hsla(420, 42%, 11%, 1), 2px 4px 4px hsla(420, 42%, 11%, 1), -4px 1px 0 0 hsla(420, 90%, 32%, 1), inset 0 0 1px 0 hsla(420, 90%, 90%, 1);
+    border: 1px hsla(420, 92%, 56%, 1) solid;
+    border-top-color: hsla(420, 90%, 64%, 1);
+    box-shadow: -4px 4px 0 0 hsla(420, 90%, 22%, .87), -3px 4px 3px hsla(420, 42%, 11%, 1), 1px 5px 4px hsla(420, 42%, 11%, 1), -4px 1px 0 0 hsla(420, 90%, 32%, 1), inset 0 0 1px 0 hsla(420, 90%, 90%, 1);
 }
 button:active {
     background: hsla(420, 90%, 42%, 1);
     color: hsla(420, 90%, 12%, 1);
     text-shadow: 1px 1px 1px hsla(420, 90%, 32%, 1);
     transform: translate(-4px, 4px);
-    border: 1px hsla(420, 90%, 22%, 1) solid;
-    border-top-color: hsla(420, 90%, 56%, 1);
+    border: 1px hsla(420, 92%, 22%, 1) solid;
+    border-top-color: hsla(420, 92%, 56%, 1);
     box-shadow: 0 0 0 0 hsla(420, 90%, 22%, .87), 0 0 0 hsla(420, 42%, 11%, 1), 0 0 0 hsla(420, 42%, 11%, 1), 0 0 0 0 hsla(420, 90%, 32%, 1), inset 1px 1px 4px 0 hsla(420, 90%, 22%, 1);
 }
 button:disabled {
