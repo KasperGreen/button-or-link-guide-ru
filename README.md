@@ -344,8 +344,8 @@ button:disabled {
 
 
 
-Пример посложнее
---------------
+### Пример посложнее
+
 
 ![Кнопки которые похожи на настоящие](https://slasher.ru/articles/link-or-button/buttons_example_complicated.png?1)
 
