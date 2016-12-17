@@ -510,4 +510,4 @@ button:disabled.in_ajax
 
 -----------------
 
-![Процесс рисования](https://slasher.ru/articles/link-or-button/paint_process.jpg?1)
+![Процесс рисования](https://slasher.ru/articles/link-or-button/paint_process.jpg?2)
