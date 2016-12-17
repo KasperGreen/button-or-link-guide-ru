@@ -52,6 +52,8 @@ _ Автор иллюстрации `<Marat Hilmanov>` gray-monkey@yandex.ru_
     * [Состояния](#sostoyaniya-1)
     * [Отображение](#otobrazhenie)
     * [CSS](#css)
+        * [Простой](#css)
+        * [Сложный](#primer-poslozhnee)
 * [Дизайнеру](#dizayneru)
 * [Спасибо](#spasibo)
 * [Репозиторий на GitHub](#github)
