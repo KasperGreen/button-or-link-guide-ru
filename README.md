@@ -480,8 +480,10 @@ button:disabled.in_ajax
 
 От дизайнера помимо макета с обычным состоянием [ссылки](https://ru.wikipedia.org/wiki/%D0%93%D0%B8%D0%BF%D0%B5%D1%80%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B0 "Гиперссылка — Википедия") или кнопки, требуется прилагать различные состояния, дабы не устраивать верстальщику батхерт.
 Например так:
+
 ![текст с различными состояниями ссылки](https://slasher.ru/articles/link-or-button/link_sates_example.png)
-![Состояния кнопки в порядке: обычное, наведение, клик, отключена](https://slasher.ru/articles/link-or-button/button_bicycle_states.png)
+
+![Состояния кнопки в порядке: обычное, наведение, фокус, клик, отключена, в состоянии загрузки](https://slasher.ru/articles/link-or-button/buttons_example_complicated.png?2)
 
 >Ребята из Google [сделали такой](https://material.google.com/components/buttons.html) макет.
 
