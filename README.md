@@ -11,7 +11,7 @@
 >— [ссылки](https://ru.wikipedia.org/wiki/%D0%93%D0%B8%D0%BF%D0%B5%D1%80%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B0 "Гиперссылка — Википедия") вместо кнопок `<UserName />`‽
 
 
-![Девушка на картинке как бы спрашивает — Куда жать?](https://slasher.ru/articles/link-or-button/+poster.png?1 "Девушка на картинке как бы спрашивает — Куда жать?")
+![Девушка на картинке как бы спрашивает — Куда жать?](https://habrastorage.org/files/027/08c/b46/02708cb467714a8f9755e4eac951e1af.png "Девушка на картинке как бы спрашивает — Куда жать?")
 
 _Автор иллюстрации `<Marat Hilmanov>` gray-monkey@yandex.ru_
 
@@ -26,11 +26,11 @@ _Автор иллюстрации `<Marat Hilmanov>` gray-monkey@yandex.ru_
 
 
 <habracut />
-![Разделитель](https://slasher.ru/articles/link-or-button/devider.png)
+![Разделитель](https://habrastorage.org/files/c97/6e8/d5a/c976e8d5a8b14d3da49b678309897ab0.png)
 
 Это не исчерпывающее руководство по кнопкам и не пример невероятного дизайна, а лишь попытка показать, что есть разница между ссылками и кнопками.
 
-![Разделитель](https://slasher.ru/articles/link-or-button/devider.png)
+![Разделитель](https://habrastorage.org/files/c97/6e8/d5a/c976e8d5a8b14d3da49b678309897ab0.png)
 
 Для кого эта статья?
 ------------------------
@@ -43,7 +43,7 @@ _Автор иллюстрации `<Marat Hilmanov>` gray-monkey@yandex.ru_
 
 В третьих чтобы вместо очередной тирады о разнице в кнопках\ссылках и нужности дизайна состояний, просто давать [ссылку](https://habrahabr.ru/post/317728/).
 
-![Разделитель](https://slasher.ru/articles/link-or-button/devider.png)
+![Разделитель](https://habrastorage.org/files/c97/6e8/d5a/c976e8d5a8b14d3da49b678309897ab0.png)
 
 Содержание
 ----------
@@ -67,13 +67,13 @@ _Автор иллюстрации `<Marat Hilmanov>` gray-monkey@yandex.ru_
 
 <a name="ssylki"></a>
 
-![Разделитель](https://slasher.ru/articles/link-or-button/devider.png)
+![Разделитель](https://habrastorage.org/files/c97/6e8/d5a/c976e8d5a8b14d3da49b678309897ab0.png)
 
 ## Ссылки
 
 <a name="vvedenie"></a>
 
-![Разделитель](https://slasher.ru/articles/link-or-button/devider.png)
+![Разделитель](https://habrastorage.org/files/c97/6e8/d5a/c976e8d5a8b14d3da49b678309897ab0.png)
 
 ### Введение
 
@@ -81,12 +81,12 @@ _Автор иллюстрации `<Marat Hilmanov>` gray-monkey@yandex.ru_
 <a href="javascript:;">Ссылка которая кнопка</a>
 ```
 Когда наводят указатель на [ссылку](https://ru.wikipedia.org/wiki/%D0%93%D0%B8%D0%BF%D0%B5%D1%80%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B0 "Гиперссылка — Википедия") которая кнопка то в левом нижнем углу появляется надпись javascript:;:
-![javascript:;](https://slasher.ru/articles/link-or-button/javascript.png)
+![javascript:;](https://habrastorage.org/files/13f/819/fe8/13f819fe8b8844ffaabbe36bfaaf7b83.png)
 Или адрес с решёткой:
-![https//site.name/page.html#](https://slasher.ru/articles/link-or-button/octothorpe.png)
+![https//site.name/page.html#](https://habrastorage.org/files/7fb/e3e/876/7fbe3e876f634e91af5714d0a7166f93.png)
 
 `ПКМ` на такой кнопке и контекстное меню любезно предложит:
-![Контекстное меню предлагает открыть ссылку в новой вкладке: сохранить, копировать…  ](https://slasher.ru/articles/link-or-button/mrb.png)
+![Контекстное меню предлагает открыть ссылку в новой вкладке: сохранить, копировать…  ](https://habrastorage.org/files/e8b/495/9b3/e8b4959b35a64894b90e9895ad31abbb.png)
 
 `ctrl` + `ЛКМ` на такой кнопке откроют новую вкладку на которой будет ровно та страница, с которой она была открыта.
 
@@ -94,7 +94,7 @@ _Автор иллюстрации `<Marat Hilmanov>` gray-monkey@yandex.ru_
 
 >В JavaScript скриптах для таких кнопок дополнительно используется `e.preventDefault()`, чтобы предотвратить действие кнопки по умолчанию (переход по [ссылке](https://ru.wikipedia.org/wiki/%D0%93%D0%B8%D0%BF%D0%B5%D1%80%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B0 "Гиперссылка — Википедия")) "— это костыль.
 
-![Разделитель](https://slasher.ru/articles/link-or-button/devider.png)
+![Разделитель](https://habrastorage.org/files/c97/6e8/d5a/c976e8d5a8b14d3da49b678309897ab0.png)
 
 `<a href="//link.url">Ссылка</a>`
 ---------------------------------
@@ -105,13 +105,13 @@ _Автор иллюстрации `<Marat Hilmanov>` gray-monkey@yandex.ru_
 * это не адрес самой страницы
 **— это [ссылка](https://ru.wikipedia.org/wiki/%D0%93%D0%B8%D0%BF%D0%B5%D1%80%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B0 "Гиперссылка — Википедия")**.
 
-![Разделитель](https://slasher.ru/articles/link-or-button/devider.png)
+![Разделитель](https://habrastorage.org/files/c97/6e8/d5a/c976e8d5a8b14d3da49b678309897ab0.png)
 
 #### У [ссылки](https://ru.wikipedia.org/wiki/%D0%93%D0%B8%D0%BF%D0%B5%D1%80%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B0 "Гиперссылка — Википедия") должны быть стили для обычного, `:active`, `:visited`, `:focus` и `:hover` состояний.
 
 <a name="antipattern"></a>
 
-![Разделитель](https://slasher.ru/articles/link-or-button/devider.png)
+![Разделитель](https://habrastorage.org/files/c97/6e8/d5a/c976e8d5a8b14d3da49b678309897ab0.png)
 
 ### Антипаттерн
 ```css
@@ -123,7 +123,7 @@ a {
 ```
 Поздравляю! С такими стилями все ваши [ссылки](https://ru.wikipedia.org/wiki/%D0%93%D0%B8%D0%BF%D0%B5%D1%80%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B0 "Гиперссылка — Википедия") визуально превратятся в обычный текст. Найти их на странице станет крайне затруднительно.
 
-![Антипример с неразличимыми ссылками](https://slasher.ru/articles/link-or-button/a_example_anti.png)
+![Антипример с неразличимыми ссылками](https://habrastorage.org/files/5ff/dec/046/5ffdec04697840fba28e02d0b3de6cb9.png)
 
 >И помните, если вы ставите `!important` и не очень понимаете почему вы без него не можете обойтись, то читайте это слово как **импотент**. Возможно вам нужно немного  изменить селектор для того, чтобы перекрыть тот, который вам мешает.
 
@@ -131,11 +131,11 @@ a {
 
 <a name="sostoyaniya"></a>
 
-![Разделитель](https://slasher.ru/articles/link-or-button/devider.png)
+![Разделитель](https://habrastorage.org/files/c97/6e8/d5a/c976e8d5a8b14d3da49b678309897ab0.png)
 
 ### Состояния
 
-![текст с различными состояниями ссылки](https://slasher.ru/articles/link-or-button/link_sates_example.png)
+![текст с различными состояниями ссылки](https://habrastorage.org/files/b21/392/f97/b21392f973b44dd5bdbe38fd4fbbe04e.png)
 -----------------------
 `a` — обычное состояние
 -----------------------
@@ -206,7 +206,7 @@ a:visited {
 
 `:visited`, поможет пользователю не забыть какие странички он уже открывал и не открывать их повторно. Так вместе с `:active` и `:hover` мы чуточку разгрузим интернет от случайных загрузок, и сделаем его чуть лучше и быстре.
 
-![Разделитель](https://slasher.ru/articles/link-or-button/devider.png)
+![Разделитель](https://habrastorage.org/files/c97/6e8/d5a/c976e8d5a8b14d3da49b678309897ab0.png)
 
 ------------------
 
@@ -217,14 +217,14 @@ a:visited {
 
 ------------------
 
-![Разделитель](https://slasher.ru/articles/link-or-button/devider.png)
+![Разделитель](https://habrastorage.org/files/c97/6e8/d5a/c976e8d5a8b14d3da49b678309897ab0.png)
 
 
 Пример нестандартного оформления ссылок:
 
-![Пример на котором состояния ссылок оформленны нестандартно](https://slasher.ru/articles/link-or-button/a_example_not_standart_1.png)
+![Пример на котором состояния ссылок оформленны нестандартно](https://habrastorage.org/files/6bc/138/c1a/6bc138c1a6334af6a5d0e2ebcb3cee24.png)
 
-![Разделитель](https://slasher.ru/articles/link-or-button/devider.png)
+![Разделитель](https://habrastorage.org/files/c97/6e8/d5a/c976e8d5a8b14d3da49b678309897ab0.png)
 
 >_Слова в ссылке должны подчиняться правилам русского языка, капс непозволителен (исключение — аббревиатуры)_
 
@@ -239,7 +239,7 @@ a:visited {
 
 <a name="html5-buttonknopkabutton"></a>
 
-![Разделитель](https://slasher.ru/articles/link-or-button/devider.png)
+![Разделитель](https://habrastorage.org/files/c97/6e8/d5a/c976e8d5a8b14d3da49b678309897ab0.png)
 
 ## HTML5 `<button>Кнопка</button>`
 
@@ -253,7 +253,7 @@ a:visited {
 
 <a name='dostupnost'></a>
 
-![Разделитель](https://slasher.ru/articles/link-or-button/devider.png)
+![Разделитель](https://habrastorage.org/files/c97/6e8/d5a/c976e8d5a8b14d3da49b678309897ab0.png)
 
 ## Доступность
 
@@ -266,7 +266,7 @@ a:visited {
 
 <a name='povedenie-vnutri-formy'></a>
 
-![Разделитель](https://slasher.ru/articles/link-or-button/devider.png)
+![Разделитель](https://habrastorage.org/files/c97/6e8/d5a/c976e8d5a8b14d3da49b678309897ab0.png)
 
 ### Поведение внутри формы
 
@@ -294,7 +294,7 @@ a:visited {
 
 <a name='sostoyaniya-1'></a>
 
-![Разделитель](https://slasher.ru/articles/link-or-button/devider.png)
+![Разделитель](https://habrastorage.org/files/c97/6e8/d5a/c976e8d5a8b14d3da49b678309897ab0.png)
 
 ### Состояния
 
@@ -310,12 +310,12 @@ _Да. Этот гайд для тебя, любитель превратить 
 
 <a name='otobrazhenie'></a>
 
-![Разделитель](https://slasher.ru/articles/link-or-button/devider.png)
+![Разделитель](https://habrastorage.org/files/c97/6e8/d5a/c976e8d5a8b14d3da49b678309897ab0.png)
 
 ### Отображение
 
 Так выглядит `<button>Кнопка</button>` в моём Chrome 54:
-![отображение состояний кнопки](https://slasher.ru/articles/link-or-button/button_states.png)
+![отображение состояний кнопки](https://habrastorage.org/files/24e/a8f/c52/24ea8fc52a9e4075bedcd0993e7615d7.png)
 На картинке `button`, `button:hover`, `button:focus`, `button:active` соответственно.
 
 Без излишеств. Но учитывая движение Google в направлении *Material Design*, вполне может статься так, что в скором времени их заменят на [подобные аналоги](https://material.google.com/components/buttons.html "сайт презентация концепта Material Design от Google").
@@ -328,11 +328,11 @@ _Да. Этот гайд для тебя, любитель превратить 
 
 <a name='css'></a>
 
-![Разделитель](https://slasher.ru/articles/link-or-button/devider.png)
+![Разделитель](https://habrastorage.org/files/c97/6e8/d5a/c976e8d5a8b14d3da49b678309897ab0.png)
 
 ### CSS
 _Для наглядности — мой вариант велосипеда который выглядит странновато, но для примера сойдёт._
-![Состояния кнопки в порядке: обычное, наведение, клик, отключена](https://slasher.ru/articles/link-or-button/button_bicycle_states.png)
+![Состояния кнопки в порядке: обычное, наведение, клик, отключена](https://habrastorage.org/files/eb9/98a/92b/eb998a92b2734817b366c201d1cd7b5a.png)
 Обычная, наведение, клик, отключена соответственно.
 ----------------------------
 `button` — обычное состояние
@@ -389,13 +389,13 @@ button:disabled {
 
 <a name="primer-poslozhnee"></a>
 
-![Разделитель](https://slasher.ru/articles/link-or-button/devider.png)
+![Разделитель](https://habrastorage.org/files/c97/6e8/d5a/c976e8d5a8b14d3da49b678309897ab0.png)
 
 ### Пример посложнее
 
 [Посмотреть в живую на JSFiddle](https://jsfiddle.net/j0vpbzsp/2)
 
-![Кнопки которые похожи на настоящие](https://slasher.ru/articles/link-or-button/buttons_example_complicated.png?2)
+![Кнопки которые похожи на настоящие](https://habrastorage.org/files/0d9/124/744/0d9124744f644ac995e2e21871dd1d37.png)
 
 
 <spoiler title="Показать CSS">
@@ -470,7 +470,7 @@ button:disabled.in_ajax
 
 <a name="dizayneru"></a>
 
-![Разделитель](https://slasher.ru/articles/link-or-button/devider.png)
+![Разделитель](https://habrastorage.org/files/c97/6e8/d5a/c976e8d5a8b14d3da49b678309897ab0.png)
 
 ## Дизайнеру
 
@@ -479,16 +479,16 @@ button:disabled.in_ajax
 От дизайнера помимо макета с обычным состоянием [ссылки](https://ru.wikipedia.org/wiki/%D0%93%D0%B8%D0%BF%D0%B5%D1%80%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B0 "Гиперссылка — Википедия") или кнопки, требуется прилагать различные состояния, дабы не устраивать верстальщику батхерт.
 Например так:
 
-![текст с различными состояниями ссылки](https://slasher.ru/articles/link-or-button/link_sates_example.png)
+![текст с различными состояниями ссылки](https://habrastorage.org/files/b21/392/f97/b21392f973b44dd5bdbe38fd4fbbe04e.png)
 
-![Состояния кнопки в порядке: обычное, наведение, фокус, клик, отключена, в состоянии загрузки](https://slasher.ru/articles/link-or-button/buttons_example_complicated.png?2)
+![Состояния кнопки в порядке: обычное, наведение, фокус, клик, отключена, в состоянии загрузки](https://habrastorage.org/files/0d9/124/744/0d9124744f644ac995e2e21871dd1d37.png)
 
 >Ребята из Google [сделали такой](https://material.google.com/components/buttons.html) макет.
 
 
 <a name="spasibo"></a>
 
-![Разделитель](https://slasher.ru/articles/link-or-button/devider.png)
+![Разделитель](https://habrastorage.org/files/c97/6e8/d5a/c976e8d5a8b14d3da49b678309897ab0.png)
 
 ## Спасибо
 
@@ -497,15 +497,15 @@ button:disabled.in_ajax
 
 <a name="github"></a>
 
-![Разделитель](https://slasher.ru/articles/link-or-button/devider.png)
+![Разделитель](https://habrastorage.org/files/c97/6e8/d5a/c976e8d5a8b14d3da49b678309897ab0.png)
 
 ## GitHub
 
 [Ссылка на репозиторий этой статьи](https://github.com/KasperGreen/button-or-link-guide-ru). Если хотите дополнить или исправить, присылайте пожалуйста `Pull Request`
 
 
-![Разделитель](https://slasher.ru/articles/link-or-button/devider.png)
+![Разделитель](https://habrastorage.org/files/c97/6e8/d5a/c976e8d5a8b14d3da49b678309897ab0.png)
 
 -----------------
 
-![Процесс рисования](https://slasher.ru/articles/link-or-button/paint_process.jpg?2)
+![Процесс рисования](https://habrastorage.org/files/8f6/401/3cd/8f64013cda5043718ea900904bfd3c60.jpg)
